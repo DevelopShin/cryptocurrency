@@ -1,0 +1,74 @@
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  margin-top: 64px;
+  columns: #fff;
+}
+
+.coin-search {
+  display: flex;
+  margin-bottom: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.coin-input {
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(123, 134, 131);
+  color: #e2e2e2;
+}
+ul li {
+  list-style: none;
+}
+
+.ul-header {
+  display: flex;
+  text-decoration: none;
+  /* justify-content: space-between; */
+  /* text-align: center; */
+  width: 100%;
+  list-style: none;
+  border-bottom: 5px solid #bababb;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.ul-header li {
+  font-size: 18px;
+  font-weight: 800;
+  color: #e2e2e2;
+}
+
+.ul-header .name {
+  /* width: 150px; */
+  margin-left: 35px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.ul-header .symbol {
+  width: 105px;
+}
+
+.ul-header .price {
+  width: 115px;
+}
+
+.ul-header .volume {
+  width: 195px;
+}
+
+.ul-header .percent {
+  width: 93px;
+}
