@@ -1,5 +1,23 @@
 # Getting Started with Create React App
 
+[go to cryptocurrency app](https://github.com/facebook/)
+
+```
+npm install gh-pages --save-dev
+```
+
+### `package.json`
+
+```
+"homepage": "https://{githubname}.github.io/{repName}/",
+  ...
+"scripts": {
+  ...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
