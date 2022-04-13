@@ -4,7 +4,7 @@ import CoinView from './components/CoinView';
 function App() {
 
   return (
-    <CoinView/>
+    <CoinView basename={process.env.PUBLIC_URL}/>
   );
 }
 
