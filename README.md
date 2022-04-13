@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-## [go to cryptocurrency React App](https://github.com/facebook/)
+## [go to cryptocurrency React App](https://developshin.github.io/cryptocurrency/)
 
 ```
 npm install gh-pages --save-dev
